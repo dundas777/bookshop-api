@@ -1,0 +1,150 @@
+{
+	"books": [
+		{
+			"id": 1,
+			"title": "The Crossing",
+			"author": "Michael Connelly",
+			"genre": "Thriller",
+			"format": "Kindle",
+			"price": 6.99,
+			"description": "Six months ago, Harry Bosch left the LAPD before they could fire him, and then hired maverick Defense Attorney Mickey Haller to sue the department for forcing him out.",
+			"inStock": true,
+			"averageRating": 4.3
+		},
+		{
+			"id": 2,
+			"title": "The Turn of the Key",
+			"author": "Ruth Ware",
+			"genre": "Thriller",
+			"format": "Paperback",
+			"price": 5.94,
+			"description": "The dream house will become her worst nightmare.",
+			"inStock": true,
+			"averageRating": 4.1
+		},
+		{
+			"id": 3,
+			"title": "My Life in Red and White",
+			"author": "Arsene Wenger",
+			"genre": "Biography",
+			"format": "Hardback",
+			"price": 14.00,
+			"description": "There is only one Arsène Wenger - and for the very first time, in his own words, this is his story.",
+			"inStock": true,
+			"averageRating": 4.7
+		},
+		{
+			"id": 4,
+			"title": "A Promised Land",
+			"author": "Barack Obama",
+			"genre": "Biography",
+			"format": "Hardback",
+			"price": 17.00,
+			"description": "riveting, deeply personal account of history in the making - from the president who inspired us to believe in the power of democracy.",
+			"inStock": true,
+			"averageRating": 4.8
+		},
+		{
+			"id": 5,
+			"title": "A Song for the Dark Times",
+			"author": "Ian Rankin",
+			"genre": "Thriller",
+			"format": "Paperback",
+			"price": 6.25,
+			"description": "When his daughter Samantha calls in the dead of night, John Rebus knows it's not good news. Her husband has been missing for two days..",
+			"inStock": true,
+			"averageRating": 4.3
+		},
+		{
+			"id": 6,
+			"title": "Less",
+			"author": "Andrew Sean Greer",
+			"genre": "Humour",
+			"format": "Paperback",
+			"price": 5.99,
+			"description": "Arthur Less is a failed novelist about to turn fifty. A wedding invitation arrives in the post: it is from an ex-boyfriend of nine years who is engaged to someone else.",
+			"inStock": true,
+			"averageRating": 4.4
+		}
+	],
+	"orders": [
+		{
+			"id": 1,
+			"userId": 2,
+			"orderRef": "GH5567-YTD6-YT533",
+			"orderDate": "2020/10/09 13:01:14",
+			"paymentMethod": "VISA",
+			"subtotal": 14.25,
+			"delivery": 5.0,
+			"tax": 3.0,
+			"total": 22.25,
+			"orderItems": [
+				{
+					"productId": 2,
+					"quantity": 2,
+					"title": "The Turn of the Key",
+					"price": 4.0
+				},
+				{
+					"productId": 5,
+					"quantity": 1,
+					"title": "A Song for the Dark Times",
+					"price": 6.25
+				}
+			]
+		},
+		{
+			"id": 2,
+			"userId": 4,
+			"orderRef": "JL8632-HFS9-KL876",
+			"orderDate": "2020/10/07 10:22:17",
+			"paymentMethod": "MasterCard",
+			"subtotal": 5.99,
+			"delivery": 3.0,
+			"tax": 1.0,
+			"total": 10.99,
+			"orderItems": [
+				{
+					"productId": 6,
+					"quantity": 1,
+					"title": "Less",
+					"price": 5.99
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"title": "Mr",
+			"firstName": "Yusuf",
+			"lastName": "Aziz",
+			"email": "yusuf.aziz@test.com",
+			"telephone": "0101 222333"
+		},
+		{
+			"id": 2,
+			"title": "Ms",
+			"firstName": "Mary",
+			"lastName": "Jones",
+			"email": "mary.jones@test.com",
+			"telephone": "0202 546546"
+		},
+		{
+			"id": 3,
+			"title": "Mr",
+			"firstName": "Harry",
+			"lastName": "Connor",
+			"email": "harry.connor@test.com",
+			"telephone": "0303 543987"
+		},
+		{
+			"id": 4,
+			"title": "Mrs",
+			"firstName": "Theresa",
+			"lastName": "Cortez",
+			"email": "theresa.cortez@test.com",
+			"telephone": "0404 876543"
+		}
+	]
+}
