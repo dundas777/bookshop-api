@@ -65,6 +65,50 @@
 			"description": "Arthur Less is a failed novelist about to turn fifty. A wedding invitation arrives in the post: it is from an ex-boyfriend of nine years who is engaged to someone else.",
 			"inStock": true,
 			"averageRating": 4.4
+		},
+		{
+			"id": 7,
+			"title": "Knowledge of Angels",
+			"author": "Jill Paton Walsh",
+			"genre": "Literature",
+			"format": "Paperback",
+			"price": 9.04,
+			"description": "Knowledge of Angels features two strangers who arrive on the island of Grandinsula and consequently become the subject of a unique experiment that puts the lives of both unknowing participants in the balance.",
+			"inStock": true,
+			"averageRating": 4.8
+		},
+		{
+			"id": 8,
+			"title": "Normal People",
+			"author": "Sally Rooney",
+			"genre": "Contemporary Fiction",
+			"format": "Paperback",
+			"price": 4.50,
+			"description": "A superb evocation of a couple at Trinity College Dublin who show what it is to be young and in love.",
+			"inStock": true,
+			"averageRating": 4.4
+		},
+		{
+			"id": 9,
+			"title": "The Midnight Library",
+			"author": "Matt Haig",
+			"genre": "Contemporary Fiction",
+			"format": "Paperback",
+			"price": 7.37,
+			"description": "Somewhere out beyond the edge of the universe there is a library that contains an infinite number of books, each one the story of another reality.",
+			"inStock": true,
+			"averageRating": 4.1
+		},
+		{
+			"id": 10,
+			"title": "The Dark Forest",
+			"author": "Cixin Lieu",
+			"genre": "Science Fiction",
+			"format": "Paperback",
+			"price": 7.10,
+			"description": "In The Dark Forest, Earth is reeling from the revelation of a coming alien invasion - four centuries in the future.",
+			"inStock": true,
+			"averageRating": 4.3
 		}
 	],
 	"orders": [
